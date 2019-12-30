@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+/* body init */
+body {
+  background: #eeeeee;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* users and posts style */
+.user-card:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 33%;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.users-list,.posts-list,.listComment{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.user-card,.post-card {
+  width: 30.33%;
+  text-align: center;
+  margin: 1.5%;
+  border: 4px solid #fff;
+  background: #00adb5;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.user-img img {
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.post-img img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.user-card,.post-info {
+  padding: 20px;
+}
+.user-name {
+  color: #393e46;
+  font-size: 23px;
+} 
+.user-info p {
+  margin-top: 0;
+}
+.company-name p {
+  margin-bottom: 2px;
+  font-size: 20px;
+  font-weight: 600;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.job-description p {
+  font-size: 18px;
+  color: #393e46
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.job-description {
+  margin-bottom: 50px;
+}
+/* btn flw */
+span {
+  padding: 15px 75px;
+  background: #393e46;
+  border-radius: 5px;
+  color: white;
+}
+.btn-flw a ,a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* comments style*/
+.comment:nth-child(even) {
+  background-color: #222831
+}
+.comment:nth-child(odd) {
+  background-color: #393e46
+}
+.comment {
+  width: 100%;
+  padding: 20px;
+  color:#fff;
+  border: 1px solid;
+  border-radius: 5px;
 }
