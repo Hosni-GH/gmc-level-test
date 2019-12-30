@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gmc-level-test/static/css/main.b4cdbe0e.chunk.css",
+    "main.js": "/gmc-level-test/static/js/main.d6f681f3.chunk.js",
+    "main.js.map": "/gmc-level-test/static/js/main.d6f681f3.chunk.js.map",
+    "runtime-main.js": "/gmc-level-test/static/js/runtime-main.46f2adab.js",
+    "runtime-main.js.map": "/gmc-level-test/static/js/runtime-main.46f2adab.js.map",
+    "static/js/2.a44e6354.chunk.js": "/gmc-level-test/static/js/2.a44e6354.chunk.js",
+    "static/js/2.a44e6354.chunk.js.map": "/gmc-level-test/static/js/2.a44e6354.chunk.js.map",
+    "index.html": "/gmc-level-test/index.html",
+    "precache-manifest.76c780bf8ff14163f1114761f555be03.js": "/gmc-level-test/precache-manifest.76c780bf8ff14163f1114761f555be03.js",
+    "service-worker.js": "/gmc-level-test/service-worker.js",
+    "static/css/main.b4cdbe0e.chunk.css.map": "/gmc-level-test/static/css/main.b4cdbe0e.chunk.css.map",
+    "static/js/2.a44e6354.chunk.js.LICENSE": "/gmc-level-test/static/js/2.a44e6354.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46f2adab.js",
+    "static/js/2.a44e6354.chunk.js",
+    "static/css/main.b4cdbe0e.chunk.css",
+    "static/js/main.d6f681f3.chunk.js"
+  ]
+}
